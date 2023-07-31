@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps: 
      - name: Deploy JavaDoc 
-     uses: Natalia25souza/Javadoc-publisher.static.yml
+     uses: Natalia25souza/Javadoc-publisher.yml@V2.4.0
     with:
        GITHUB_TOKEN:
        javadoc-branch: javadoc
